@@ -1,0 +1,342 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgb(254, 255, 241);
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo {
+    height: 90px;
+    padding-left: 120px;
+}
+
+h2{
+    position: relative;
+    left: -220px;
+    color: hsla(152, 72%, 31%, 1);
+    font-weight: 900;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 0.1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: hsla(241, 39%, 41%, 1);
+    font-weight: bolder;
+    padding-right: 50px;
+}
+
+/* qualifications */
+
+.polygon{
+    position: absolute;
+    top: 162px;
+    height: 40px;
+    left: 7.7%;
+}
+
+.qualification-banner {
+    background-color:  #168753;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+}
+
+.qualification-details {
+    text-align: center;
+    padding: 20px;
+}
+
+.qualification-banner h1{
+    font-size: 30px;
+    position: relative;
+    left: -580px;
+}
+
+.qualification-details h2 {
+    color: #168753;
+    font-size: 50px;
+    position: relative;
+    top: -50px;
+    left: -280px;
+    font-weight: 900;
+}
+
+.qualification-details .hours {
+    color: #168753;
+    font-size: 25px;
+    position: relative;
+    top: -80px;
+    left: -640px;
+    font-weight: bold;
+}
+
+
+.image-container img {
+    width: 80%;
+    height: 80vh;
+    top: -80px;
+    position: relative;
+    left: 45px;
+}
+
+.description {
+    max-width: 80%;
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: justify;
+    position: relative;
+    left: 45px;
+    top: -60px;
+}
+
+.additional-details {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    line-height: 2.5;
+    padding-left: 250px;
+    top: -100px;
+}
+
+.qualifications  {
+    max-width: 180%;
+}
+
+.benefits{
+    position: relative;
+    top: 10px;
+    left: 185px;
+}
+
+.core-competencies{
+    position: relative;
+    top: 200px;
+    left: -220px;
+}
+
+.qualifications h3, .benefits h3, .core-competencies h3 {
+    color:  #000000;
+    font-weight: bolder;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.register-button {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 14px;
+    background-color:  #168753;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+    left: -230px;
+}
+
+/* footer */
+
+.footer{
+    position: relative;
+    background-color: hsla(168, 100%, 25%, 1);
+    height: 200px;
+    width: auto;
+    z-index: 1;
+    top: 20px;
+}
+
+.republic{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: 25px;
+    left: 20%;
+}
+.content{
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 20%;
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+.ph{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: -75px;
+    left: 45%;
+}
+.learn{
+    color: white;
+    position: absolute;
+    top: 44px;
+    left: 45%;
+    font-size: 11px;
+    font-weight: lighter;
+}
+.gov1{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 45%;
+    top: 100px;
+}
+.gov2{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 45%;
+    top: 120px;
+}
+.gov3{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 45%;
+    top: 140px;
+}
+.goverment{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 65%;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.pres{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 45px;
+}
+.vice{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 65px;
+}
+.senate{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 85px;
+}
+.house{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 105px;
+}
+.supreme{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 125px;
+}
+.appeals{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 145px;
+}
+.sandigan{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 165px;
+}
+.negros{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 185px;
+}
+.visit{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 85%;
+    font-weight: bold;
+}
+.paglaum{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 85%;
+    top: 35px;
+}
+.phone{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 85%;
+    top: 85px;
+}
+.register{
+    position: absolute;
+    top: 25px;
+    font-size: 55px;
+    left: 160px;
+}
+.pic{
+    height: 90%;
+    left: 100px;
+    position: absolute;
+    top: 20px;
+}

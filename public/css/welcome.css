@@ -1,0 +1,607 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo {
+    height: 90px;
+    padding-left: 120px;
+}
+
+h2{
+    position: relative;
+    left: -220px;
+    color: hsla(152, 72%, 31%, 1);
+    font-weight: 900;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 0.1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: hsla(241, 39%, 41%, 1);
+    font-weight: bolder;
+    padding-right: 50px;
+}
+
+.student{
+    width: 100%;
+    height: 1000%;
+    padding-top: 5px;
+    position: relative;
+    top: -5px;
+}
+
+.intro h1 {
+    font-size: 2em;
+    color: #2c7b1f;
+    position: relative;
+    top: -220px;
+    text-align: center;
+    font-weight: 900;
+}
+
+/* intro */
+
+.intro p {
+    font-size: 0.9em;
+    color: #2c7b1f;
+    top: -230px;
+    position: relative;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.intro button {
+    padding: 0.8em 2em;
+    background-color: #403F91;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 1em;
+    border-radius: 5px;
+    position: relative;
+    left: 870px;
+    top: -210px;
+    font-weight: bold;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* about */
+.span{
+    height: 100px;
+    width: 255px;
+    background-color: #168753;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    left: 530px;
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em 1em;
+    height: auto;
+    position: relative;
+    height: 600px;
+}
+
+.about .mascot {
+    height: 650px;
+    margin-right: 0.5em;
+    position: relative;
+    top: -90px;
+    left: 210px;
+}
+
+.about p {
+    max-width: 600px;
+    text-align: justify;
+    font-size: 20px;
+    position: relative;
+    top: -270px;
+    left: 210px;
+}
+
+.know{
+    position: relative;
+    padding: 0.5em 1.5em;
+    left: -389px;
+    top: -100px;
+    background-color: #168753;
+    border: none;
+    font-size: 19px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.abanse{
+    position: relative;
+    left: -550px;
+    top: 20px;
+}
+
+.nolitc{
+    position: absolute;
+    top: 70%;
+    left: 58%;
+}
+
+/* background color */
+
+
+
+/* programs */
+.programs {
+    text-align: center;
+    padding: 2em 1em;
+    background-color: rgb(253, 255, 232);
+    position: relative;
+
+}
+
+.programs h1 {
+    font-size: 4em;
+    color: #2c7b1f;
+    margin-bottom: 1em;
+    position: relative;
+    top: -50px;
+}
+
+.program-cards{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    height: 400px;
+}
+
+
+.program-cards .card img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: -110px;
+    left: -20px;
+}
+
+.program-cards::before{
+ background-color: #0b5300;
+ color: #0b5300;
+}
+
+.program-cards .card h3 {
+    font-size: 1.5em;
+    color: #ffffff;
+    position: relative;
+    top: -340px;
+    text-align: justify;
+    font-weight: 900;
+    left: 40px;
+}
+
+.program-cards .card a {
+    color: #2c7b1f;
+    position: relative;
+    top: -330px;
+    text-decoration: none;
+    background-color: white;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 5px;
+    left: -160px;
+}
+
+
+/* next and previous button */
+
+.previous {
+    color: black;
+    position: absolute;
+    width: 40px;
+    font-size: 50px;
+    top: 45%;
+    left: 0;
+    text-decoration: none;
+  }
+
+  .next {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 40px;
+    font-size: 50px;
+    top: 45%;
+    right: 0;
+    text-decoration: none;
+  }
+
+  .round {
+    border-radius: 50px;
+  }
+
+/* updates */
+.updates {
+    text-align: center;
+    padding: 2em 1em;
+    height: 570px;
+}
+
+.updates h1 {
+    font-size: 4em;
+    color: #2c7b1f;
+    margin-bottom: 1em;
+    position: relative;
+    top: -50px;
+}
+
+.update-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+    position: relative;
+    top: -70px;
+}
+
+.update-cards .card {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1em;
+    max-width: 400px;
+    height: 400px;
+}
+
+.update-cards .card img {
+    width: 105%;
+    height: auto;
+    position: relative;
+    left: -13px;
+    border-radius: 10px;
+}
+
+.update-cards .card p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0.5em 0;
+    font-weight: bolder;
+    width: 500px;
+    position: relative;
+    text-align: left;
+}
+
+.update-cards .card span {
+    font-size: 0.9em;
+    color: #999;
+    position: relative;
+    top: 20px;
+    left: -100px;
+}
+
+.update-cards .read {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: green;
+    font-size: 17px;
+    position: relative;
+    top: 80px;
+    left: -185px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.more{
+    color: #ffffff;
+    text-decoration: none;
+    background-color: green;
+    font-size: 17px;
+    position: relative;
+    top: 65px;
+    left: -190px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+/* scorecard */
+
+.scorecard {
+    text-align: center;
+    padding: 2em 1em;
+    background-color: rgb(253, 255, 232);
+    height: 350px;
+}
+
+.scorecard h1 {
+    font-size: 4em;
+    color: #168753;
+    margin-bottom: 1em;
+    position: relative;
+    top: -50px;
+}
+
+.scorecard-metrics {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.scorecard-metrics .metric {
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    height: 60px;
+    top: -50px;
+    width: 200px;
+    box-shadow: .5px 1px 3px 1px;
+    position: relative;
+}
+
+.scorecard-metrics .metric h3 {
+    font-size: 4em;
+    color: #008269;
+    margin: 0;
+    position: relative;
+    top: -30px;
+}
+
+.scorecard-metrics .metric p {
+    font-size: 1.2em;
+    color: #555;
+    position: relative;
+    top: -30px;
+    font-weight: bold;
+}
+
+/* partners */
+
+.partners {
+    text-align: center;
+    padding: 2em 1em;
+    position: relative;
+    height: 400px;
+}
+
+.partners h1 {
+    font-size: 4em;
+    color: #2c7b1f;
+    margin-bottom: 1em;
+    position: relative;
+    top: -50px;
+    height: 300px;
+    text-align: center;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    display: inline-block;
+    transition: 0.6s ease;
+}
+
+.partner-logos img {
+    max-height: 200px;
+    position: relative;
+    top: -250px;
+    left: -10px;
+}
+
+/* image timer */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+
+/* footer */
+
+.footer{
+    position: relative;
+    background-color: hsla(168, 100%, 25%, 1);
+    height: 200px;
+    width: auto;
+    z-index: 1;
+    top: 20px;
+}
+
+.republic{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: 25px;
+    left: 20%;
+}
+.content{
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 20%;
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+.ph{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: -75px;
+    left: 45%;
+}
+.learn{
+    color: white;
+    position: absolute;
+    top: 44px;
+    left: 45%;
+    font-size: 11px;
+    font-weight: lighter;
+}
+.gov1{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 45%;
+    top: 100px;
+}
+.gov2{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 45%;
+    top: 120px;
+}
+.gov3{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 45%;
+    top: 140px;
+}
+.goverment{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 65%;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.pres{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 45px;
+}
+.vice{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 65px;
+}
+.senate{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 85px;
+}
+.house{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 105px;
+}
+.supreme{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 125px;
+}
+.appeals{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 145px;
+}
+.sandigan{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 165px;
+}
+.negros{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 185px;
+}
+.visit{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 85%;
+    font-weight: bold;
+}
+.paglaum{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 85%;
+    top: 35px;
+}
+.phone{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 85%;
+    top: 85px;
+}
+.register{
+    position: absolute;
+    top: 25px;
+    font-size: 55px;
+    left: 160px;
+}
+.pic{
+    height: 90%;
+    left: 100px;
+    position: absolute;
+    top: 20px;
+}

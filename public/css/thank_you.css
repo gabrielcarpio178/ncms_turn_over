@@ -1,0 +1,268 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 4px 2px -2px gray;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.logo {
+    height: 90px;
+    padding-left: 120px;
+}
+
+h2{
+    position: relative;
+    left: -220px;
+    color: hsla(152, 72%, 31%, 1);
+    font-weight: 900;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 0.1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: hsla(241, 39%, 41%, 1);
+    font-weight: bolder;
+    padding-right: 50px;
+}
+
+.container {
+    text-align: center;
+}
+.container img {
+    max-width: 200px;
+    position: relative;
+    top: 250px;
+    left: -16%;
+}
+.container h1 {
+    color: hsla(168, 100%, 25%, 1);
+    font-size: 4em;
+    font-weight: 900;
+    position: relative;
+    top: -120px;
+}
+
+.container h3{
+    position: relative;
+    top: -140px;
+    left: 1.5%;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #403F91;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 900;
+    top: -140px;
+    position: relative;
+    left: -95px;
+}
+
+/* footer */
+
+.footer{
+    position: relative;
+    background-color: hsla(168, 100%, 25%, 1);
+    height: 200px;
+    width: auto;
+    z-index: 1;
+    top: 43px;
+}
+
+.republic{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: 25px;
+    left: 20%;
+}
+.content{
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 20%;
+    font-size: 11px;
+    font-weight: lighter;
+}
+
+.ph{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    top: -75px;
+    left: 45%;
+}
+.learn{
+    color: white;
+    position: absolute;
+    top: 44px;
+    left: 45%;
+    font-size: 11px;
+    font-weight: lighter;
+}
+.gov1{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 45%;
+    top: 100px;
+}
+.gov2{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 45%;
+    top: 120px;
+}
+.gov3{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 45%;
+    top: 140px;
+}
+.goverment{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 65%;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.pres{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 45px;
+}
+.vice{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 65px;
+}
+.senate{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 85px;
+}
+.house{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 105px;
+}
+.supreme{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 125px;
+}
+.appeals{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 145px;
+}
+.sandigan{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 165px;
+}
+.negros{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 65%;
+    top: 185px;
+}
+.visit{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 85%;
+    font-weight: bold;
+}
+.paglaum{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 85%;
+    top: 35px;
+}
+.phone{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    font-weight: lighter;
+    left: 85%;
+    top: 85px;
+}
+.register{
+    position: absolute;
+    top: 25px;
+    font-size: 55px;
+    left: 160px;
+}
+.pic{
+    height: 90%;
+    left: 100px;
+    position: absolute;
+    top: 20px;
+}
